@@ -1,0 +1,13 @@
+name: screenshot-check
+on: [push]
+jobs:
+  check-screenshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: npm install
+      - run: npm run backstop_create_prod_screenshots
+      - run: npm run backstop_test
