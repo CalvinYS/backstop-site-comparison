@@ -1,14 +1,14 @@
 {
     "testname": "Toolkit Information",
-    "dev": "https://las.illinois.edu/",
-    "prod": "https://communication.illinois.edu/",
+    "dev": "https://darkdatawptest.web.illinois.edu/",
+    "prod": "https://darkdatawptest.web.illinois.edu/",
     "urls": [
         {
-            "url": "examples/components/breadcrumbs/index.html",
+            "url": "",
             "label": "breadcrumbs"
         },
         {
-            "url": "examples/components/call-to-action/alignment/index.html",
+            "url": "",
             "label": "call to action",
             "last": true
         }
