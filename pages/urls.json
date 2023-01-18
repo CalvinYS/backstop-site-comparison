@@ -1,7 +1,7 @@
 {
     "testname": "Toolkit Information",
-    "dev": "https://us.prairielearn.com/",
-    "prod": "https://us.prairielearn.com/",
+    "dev": "https://darkdatawptest.web.illinois.edu/",
+    "prod": "https://darkdatawptest.web.illinois.edu/",
     "urls": [
         {
             "url": "",
