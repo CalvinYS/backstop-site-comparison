@@ -1,7 +1,7 @@
 {
     "testname": "Toolkit Information",
-    "dev": "https://communication.illinois.edu",
-    "prod": "https://test.communication.illinois.edu",
+    "dev": "https://las.illinois.edu/",
+    "prod": "https://communication.illinois.edu/",
     "urls": [
         {
             "url": "examples/components/breadcrumbs/index.html",
