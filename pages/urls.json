@@ -1,11 +1,12 @@
 {
     "testname": "Toolkit Information",
-    "dev": "https://darkdatawptest.web.illinois.edu/",
-    "prod": "https://darkdatawptest.web.illinois.edu/",
+    "dev": "https://english.illinois.edu/",
+    "prod": "https://english.illinois.edu/",
     "urls": [
         {
             "url": "",
             "label": "breadcrumbs"
+            
         },
         {
             "url": "",
