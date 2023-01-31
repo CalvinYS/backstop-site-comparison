@@ -1,16 +1,183 @@
 {
     "testname": "Toolkit Information",
-    "dev": "https://math.illinois.edu/",
-    "prod": "https://math.illinois.edu/",
+    "dev": "https://ddevwebtheme.web.illinois.edu/",
+    "prod": "https://drupal.webtheme.illinois.edu/",
     "urls": [
         {
             "url": "",
-            "label": "breadcrumbs"
-            
+            "label": "dev-home"
+        },
+        {
+            "url": "content-types/content-page/",
+            "label": "dev-content-page"
+        },
+        {
+            "url": "giving/fund-listing-page",
+            "label": "dev-fund-listing-page"
+        },
+        {
+            "url": "content-types/news",
+            "label": "dev-news"
+        },
+        {
+            "url": "paragraphs/accordions",
+            "label": "dev-accordions"
+        },
+        {
+            "url": "paragraphs/big-buttons",
+            "label": "dev-big-buttons"
+        },
+        {
+            "url": "paragraphs/call-action",
+            "label": "dev-call-action"
+        },
+        {
+            "url": "paragraphs/call-action-narrow",
+            "label": "dev-call-action-narrow"
+        },
+        {
+            "url": "paragraphs/cards",
+            "label": "dev-cards"
+        },
+        {
+            "url": "paragraphs/contact",
+            "label": "dev-contact"
+        },
+        {
+            "url": "paragraphs/feature-box",
+            "label": "dev-feature-box"
+        },
+        {
+            "url": "paragraphs/feature-group",
+            "label": "dev-feature-box"
+        },
+        {
+            "url": "paragraphs/feature-split",
+            "label": "dev-feature-split"
+        },
+        {
+            "url": "paragraphs/feature-video",
+            "label": "dev-feature-video"
+        },
+        {
+            "url": "paragraphs/hero",
+            "label": "dev-hero"
+        },
+        {
+            "url": "paragraphs/hero-section",
+            "label": "dev-hero-section"
+        },
+        {
+            "url": "paragraphs/icon-row",
+            "label": "dev-icon-row"
+        },
+        {
+            "url": "paragraphs/image-gallery",
+            "label": "dev-image-gallery"
+        },
+        {
+            "url": "paragraphs/intro",
+            "label": "dev-intro"
+        },
+        {
+            "url": "paragraphs/list-collection",
+            "label": "dev-list-collection"
+        },
+        {
+            "url": "paragraphs/rich-text",
+            "label": "dev-rich-text"
+        },
+        {
+            "url": "paragraphs/webtools-calendar",
+            "label": "dev-webtools-calendar"
         },
         {
             "url": "",
-            "label": "call to action",
+            "label": "home"
+        },
+        {
+            "url": "content-types/content-page/",
+            "label": "content-page"
+        },
+        {
+            "url": "giving/fund-listing-page",
+            "label": "fund-listing-page"
+        },
+        {
+            "url": "content-types/news",
+            "label": "news"
+        },
+        {
+            "url": "paragraphs/accordions",
+            "label": "accordions"
+        },
+        {
+            "url": "paragraphs/big-buttons",
+            "label": "big-buttons"
+        },
+        {
+            "url": "paragraphs/call-action",
+            "label": "call-action"
+        },
+        {
+            "url": "paragraphs/call-action-narrow",
+            "label": "call-action-narrow"
+        },
+        {
+            "url": "paragraphs/cards",
+            "label": "cards"
+        },
+        {
+            "url": "paragraphs/contact",
+            "label": "contact"
+        },
+        {
+            "url": "paragraphs/feature-box",
+            "label": "feature-box"
+        },
+        {
+            "url": "paragraphs/feature-group",
+            "label": "feature-box"
+        },
+        {
+            "url": "paragraphs/feature-split",
+            "label": "feature-split"
+        },
+        {
+            "url": "paragraphs/feature-video",
+            "label": "feature-video"
+        },
+        {
+            "url": "paragraphs/hero",
+            "label": "hero"
+        },
+        {
+            "url": "paragraphs/hero-section",
+            "label": "hero-section"
+        },
+        {
+            "url": "paragraphs/icon-row",
+            "label": "icon-row"
+        },
+        {
+            "url": "paragraphs/image-gallery",
+            "label": "image-gallery"
+        },
+        {
+            "url": "paragraphs/intro",
+            "label": "intro"
+        },
+        {
+            "url": "paragraphs/list-collection",
+            "label": "list-collection"
+        },
+        {
+            "url": "paragraphs/rich-text",
+            "label": "rich-text"
+        },
+        {
+            "url": "paragraphs/webtools-calendar",
+            "label": "webtools-calendar",
             "last": true
         }
     ],
