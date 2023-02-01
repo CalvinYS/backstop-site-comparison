@@ -12,10 +12,16 @@ jobs:
     - run: npm install
     - run: npm run backstop_create_prod_screenshots
     - run: npm run backstop_test
+    name: upload screenshots
+    if: always()
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-screenshots
+        path: check-screenshot
   download-screenshots:
     name: download screenshots
     runs-on: ubuntu-latest
-    if: ${{ failure() }}
+    if: failure()
     needs: check-screenshot
     steps:
     - uses: actions/checkout@v3
