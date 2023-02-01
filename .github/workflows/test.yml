@@ -12,8 +12,9 @@ jobs:
     - run: npm install
     - run: npm run backstop_create_prod_screenshots
     - run: npm run backstop_test
-    if: always()
-    - uses: actions/upload-artifact@v3
+    - name: upload
+      uses: actions/upload-artifact@v3
+      if: always()
       with:
         name: my-screenshots
         path: check-screenshot
