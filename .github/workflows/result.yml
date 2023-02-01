@@ -1,7 +1,7 @@
 name: result
 on:
   workflow_run:
-    workflows: [screenshot-check]
+    workflows: [screenshot check]
     types: [completed]
 
 jobs:
