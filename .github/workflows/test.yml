@@ -19,7 +19,7 @@ jobs:
       if: always()
       with:
         name: my-screenshots
-        path: backstop_data/bitmaps_test_templates/20230201-144750/
+        path: backstop_data/bitmaps_test_templates/
   
   download-screenshots:
     name: download screenshots
