@@ -16,9 +16,10 @@ jobs:
     name: download screenshots
     runs-on: ubuntu-latest
     if: ${{ failure() }}
+    needs: check-screenshot
     steps:
     - uses: actions/checkout@v3
-    - uses: actions/upload-artifact@v3
+    - uses: actions/download-artifact@v3
       with:
-        name: my-artifact
-        path: path/to/artifact/
+        name: screenshot-comparison
+    - run: ls -R
