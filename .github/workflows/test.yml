@@ -15,6 +15,7 @@ jobs:
   download-screenshots:
     name: download screenshots
     runs-on: ubuntu-latest
+    if: ${{ failure() }}
     needs: check-screenshot
     steps:
     - uses: actions/checkout@v3
