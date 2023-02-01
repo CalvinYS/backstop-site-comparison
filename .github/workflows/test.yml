@@ -8,16 +8,19 @@ jobs:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
       with:
-        node-version: '16'
+        node-version: '16'    
     - run: npm install
-    - run: npm run backstop_create_prod_screenshots
-    - run: npm run backstop_test
+    - name: create screenshots
+      run: npm run backstop_create_prod_screenshots
+    - name: compare screenshots
+      run: npm run backstop_test
     - name: upload
       uses: actions/upload-artifact@v3
       if: always()
       with:
         name: my-screenshots
         path: check-screenshot
+  
   download-screenshots:
     name: download screenshots
     runs-on: ubuntu-latest
