@@ -19,6 +19,6 @@ jobs:
     steps:
     -uses: actions/checkout@v3
     -uses: actions/download-artifact@v3
-      with:
-        name: screenshot-comparison
+    with:
+      name: screenshot-comparison
     -run: ls -R
