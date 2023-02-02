@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     uses: thollander/actions-comment-pull-request@v2
-        with:
-          message: |
-            Site appearance was not altered.
+    with:
+      message: |
+        Site appearance was not altered.
   on-failure:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
     uses: thollander/actions-comment-pull-request@v2
-        with:
-          message: |
-            Site appearance was altered. Download artifact to view differences.
+    with:
+      message: |
+        Site appearance was altered. Download artifact to view differences.
