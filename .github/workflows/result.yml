@@ -8,10 +8,14 @@ jobs:
   on-success:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    steps:
-      - run: echo 'Site appearance was not changed.'
+    uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            Site appearance was not altered.
   on-failure:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'failure' }}
-    steps:
-      - run: echo 'Site appearance was changed.'
+    uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            Site appearance was altered. Download artifact to view differences.
