@@ -6,7 +6,7 @@ on:
 
 jobs:
   on-success:
-    name: Success
+    name: success
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
