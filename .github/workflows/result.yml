@@ -2,4 +2,4 @@ name: actual
 on: [workflow_dispatch]
 jobs:
   call-workflow-in-another-repo:
-    uses: backstop-site-comparison/.github/workflows/test.yml@v3
+    uses: ./.github/workflows/test.yml
