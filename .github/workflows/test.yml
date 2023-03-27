@@ -1,5 +1,5 @@
 name: screenshot check
-on: [workflow_dispatch]
+on: [workflow_call]
 jobs:
   check-screenshot:
     name: check screenshots
